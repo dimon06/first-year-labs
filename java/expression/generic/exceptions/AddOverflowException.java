@@ -1,0 +1,7 @@
+package expression.generic.exceptions;
+
+public class AddOverflowException extends OverflowException {
+    public AddOverflowException(int a, int b) {
+        super("add", a + "+" + b);
+    }
+}
